@@ -16,6 +16,7 @@
   <!-- Custom fonts for this template -->
   <link href="<?php echo base_url("assets/font-awesome/css/font-awesome.min.css");?>" rel="stylesheet">
   <link href="<?php echo base_url("assets/simple-line-icons/css/simple-line-icons.css");?>" rel="stylesheet">
+  <link href="<?php echo base_url("assets/css/timeline.css");?>" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
@@ -41,13 +42,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#daftar">Daftar Sekarang</a>
+            <a class="nav-link js-scroll-trigger" href="#login">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            <a class="nav-link js-scroll-trigger" href="#daftar">Daftar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#procedure">Prosedur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">FAQ</a>
           </li>
         </ul>
       </div>
@@ -55,47 +59,48 @@
   </nav>
 
   <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-lg-6 my-auto">
-          <div class="header-content mx-auto">
-            <h1 class="mb-5 twhite">Saatnya menjadi pribadi yang lebih baik bersama <strong> Al-Multazam </strong> </h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Daftar Sekarang</a>
-          </div>
-
-        </div>
-        <div class="col-lg-6 my-auto">
-          <div class="device-container">
-            <div class="card" style="width: 25rem;">
-
-              <div class="card-body">
-                <img src="<?php echo base_url("assets/img/almultazam-psb.svg");?>" width="100%" alt="">
-                <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                  <strong>Login Bermasalah!</strong> Perikasa nama pengguna dan kata sandi anda
-                </div>
-                <form>
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Pengguna">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Katasandi">
-                  </div>
-                  <button type="submit" class="btn btn-outline-success btn-xl js-scroll-trigger">Masuk</button>
-                  <button type="button" class="btn btn-outline btn-xl js-scroll-trigger">Bantuan</button>
-                </form>
-              </div>
-
+    <section id="login">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-6 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="mb-5 twhite">Saatnya menjadi pribadi yang lebih baik bersama <strong> Al-Multazam </strong> </h1>
+              <a href="#daftar" class="btn btn-outline btn-xl js-scroll-trigger">Daftar Sekarang</a>
             </div>
-            <span class="twhite">In Association with  </span> <a class="badge-link" href="#"><img src="<?php echo base_url("assets/img/logo-nizam.svg");?>" width="100rm" alt=""></a>
+
+          </div>
+          <div class="col-lg-6 my-auto">
+            <div class="device-container">
+              <div class="card" style="width: 25rem;">
+
+                <div class="card-body">
+                  <img src="<?php echo base_url("assets/img/almultazam-psb.svg");?>" width="100%" alt="">
+                  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Login Bermasalah!</strong> Perikasa nama pengguna dan kata sandi anda
+                  </div>
+                  <form>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Pengguna">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Katasandi">
+                    </div>
+                    <button type="submit" class="btn btn-outline-success btn-xl js-scroll-trigger">Masuk</button>
+                    <button type="button" class="btn btn-outline-warning btn-xl js-scroll-trigger">Bantuan</button>
+                  </form>
+                </div>
+
+              </div>
+              <span class="twhite">In Association with  </span> <a class="badge-link" href="#"><img src="<?php echo base_url("assets/img/logo-nizam.svg");?>" width="100rm" alt=""></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
-
+    </header>
+  </section>
   <section class="" id="daftar">
     <div class="container">
       <div class="row">
@@ -214,7 +219,96 @@
     </div>
   </div>
 </section>
+
+<section class="cta timeline"  id="procedure">
+      <div class="cta-content">
+        <div class="container">
+           <h1 class="twhite">Prosedur Pendaftaran</h1>
+    <p class="leader twhite">Alur Pendaftaran Santri Baru Al-Multazam</p>
+    <div class="demo-card-wrapper">
+      <div class="demo-card demo-left">
+        <div class="head">
+          <div class="number-box">
+            <span>01</span>
+          </div>
+          <h2><span class="small">Subtitle</span> Technology</h2>
+        </div>
+        <div class="body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.
+            <img src="<?php echo base_url("assets/img/registering.png");?>" width="256px"/>
+          </div>
+        </p>
+
+      </div>
+
+
+      <div class="demo-card demo-right">
+        <div class="head">
+          <div class="number-box">
+            <span>02</span>
+          </div>
+          <h2><span class="small">Subtitle</span> Confidence</h2>
+        </div>
+        <div class="body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.
+            <img src="<?php echo base_url("assets/img/emailsmsnotif.png");?>" width="256px"/>
+          </p>
+        </div>
+      </div>
+
+      <div class="demo-card demo-left">
+        <div class="head">
+          <div class="number-box">
+            <span>03</span>
+          </div>
+          <h2><span class="small">Subtitle</span> Adaptation</h2>
+        </div>
+        <div class="body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.
+            <img src="<?php echo base_url("assets/img/formdata.png");?>" width="256px"/>
+          </p>
+        </div>
+      </div>
+
+      <div class="demo-card demo-card--step4">
+        <div class="head">
+          <div class="number-box">
+            <span>04</span>
+          </div>
+          <h2><span class="small">Subtitle</span> Consistency</h2>
+        </div>
+        <div class="body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+          <img src="http://placehold.it/1000x500" alt="Graphic">
+        </div>
+      </div>
+
+      <div class="demo-card demo-card--step5">
+        <div class="head">
+          <div class="number-box">
+            <span>05</span>
+          </div>
+          <h2><span class="small">Subtitle</span> Conversion</h2>
+        </div>
+        <div class="body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+          <img src="http://placehold.it/1000x500" alt="Graphic">
+        </div>
+      </div>
+    </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
 <!--
+      <svg width="100%" height="100%" viewBox="100 100 100 100">
+    <defs>
+      <filter id="blur">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+      </filter>
+    </defs>
+    <image filter="url(#blur)" xlink:href="<?php //echo base_url("assets/img/DSC_2350.jpg");?>" x="0" y="0" height="300px" width="450px" />
+  </svg>
 <section class="features" id="features">
   <div class="container">
     <div class="section-heading text-center">
@@ -229,7 +323,7 @@
             <div class="device">
               <div class="screen">
                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                <!--<img src="<?php echo base_url("assets/img/demo-screen-1.jpg");?>" class="img-fluid" alt="">
+                <!--<img src="<?php //echo base_url("assets/img/demo-screen-1.jpg");?>" class="img-fluid" alt="">
               </div>
               <div class="button">
                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -313,8 +407,7 @@
     </div>
   </div>
   <div class="overlay"></div>
-</section>
-
+</section>-->
 <section class="contact bg-primary" id="contact">
   <div class="container">
     <h2>We
@@ -339,7 +432,6 @@
     </ul>
   </div>
 </section>
--->
 <footer>
   <div class="container">
     <p>&copy; 2017 PSB AL-Multazam</p>
@@ -367,6 +459,8 @@
 
 <!-- Custom scripts for this template -->
 <script src="<?php echo base_url("assets/js/new-age.min.js");?>"></script>
+<!--timeline-->
+<script src="<?php echo base_url("assets/js/timeline.js");?>"></script>
 
 </body>
 

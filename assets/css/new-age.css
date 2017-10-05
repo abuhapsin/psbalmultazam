@@ -47,15 +47,7 @@ section {
   padding: 100px 0; }
   section h2 {
     font-size: 50px; }
-.twhite{
-  color:#FFFFFF;
-}
-.padd{
-  padding: 20px;
-}
-.mrg{
-  margin:10px;
-}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -63,12 +55,12 @@ section {
   -moz-transition: all .35s;
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: bold;
   letter-spacing: 1px; }
   #mainNav .navbar-brand {
     color: #fdcc52;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
+    font-weight: bold;
     letter-spacing: 1px; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
       color: #fcbd20; }
@@ -77,7 +69,7 @@ section {
     padding: 8px 10px;
     color: #222222; }
   #mainNav .navbar-nav > li > a {
-    font-size: 11px;
+    font-size: 12px;
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     letter-spacing: 2px;
     text-transform: uppercase; }
@@ -125,7 +117,7 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: ;
+  color: white;
   background:  linear-gradient(to left, 
       rgba(255, 142, 66, 0.8), 
       rgba(68, 145, 108, 0.8)
@@ -217,13 +209,9 @@ section.features .feature-item {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  padding: 50px 0;
+  background-image: url("../img/logo-mono-am.png");
+background-size: 180px;}
   section.cta .cta-content {
     position: relative;
     z-index: 1; }
@@ -242,7 +230,11 @@ section.cta {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); }
+    background:  linear-gradient(to left, 
+      rgba(255, 142, 66, 0.9), 
+      rgba(68, 145, 108, 0.9)
+    );
+  }
 
 section.contact {
   text-align: center; }
@@ -320,3 +312,6 @@ footer {
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px; }
+.twhite{
+  color:#FFF;
+}
